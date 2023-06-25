@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+  ~ /**
+  ~  * Copyright © Vaimo Group. All rights reserved.
+  ~  * See LICENSE_VAIMO.txt for license details.
+  ~  */
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Gundo_OneMailer::listing" sortOrder="10" title="OneMailer" module="Gundo_OneMailer"
+             parent="Magento_Catalog::catalog" resource="Gundo_OneMailer::listing" translate="title"
+             action="Index/index/index"/>
+    </menu>
+</config>

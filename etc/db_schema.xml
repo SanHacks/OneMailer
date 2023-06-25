@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+  ~ /**
+  ~  * Copyright © Vaimo Group. All rights reserved.
+  ~  * See LICENSE_VAIMO.txt for license details.
+  ~  */
+  -->
+
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sagacityone" resource="checkout" engine="innodb" comment="">
+        <column xsi:type="int" name="Product_id" unsigned="true" nullable="false" identity="false"/>
+        <column xsi:type="varchar" name="Name" nullable="false" length="255"/>
+    </table>
+</schema>

@@ -1,0 +1,8 @@
+{
+  "sagacityone": {
+    "column": {
+      "Product_id": true,
+      "Name": true
+    }
+  }
+}
